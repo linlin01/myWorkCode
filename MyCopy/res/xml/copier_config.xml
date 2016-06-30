@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Copiers>
+
+    <!--
+    srcPath: the source path
+    dstPath: the dst path
+    don't forget the '/' at the end of the path
+    now doesn't support external SDCARD,just support internal SDCARD and inner rom
+    example:
+    <Copier srcPath="/system/pre-media/" dstPath="/storage/sdcard0/media/"/>
+    -->
+    <Copier srcPath="/system/wallpapers/" dstPath="/storage/sdcard0/wallpapers/"/>
+    <Copier srcPath="/system/media/custom/Music/" dstPath="/storage/sdcard0/Music/"/>
+    <Copier srcPath="/system/media/custom/Videos/" dstPath="/storage/sdcard0/Videos/"/>
+    <Copier srcPath="/system/backupres/System/" dstPath="/storage/sdcard0/System/"/>
+    <Copier srcPath="/system/backupres/Pictures/" dstPath="/storage/sdcard0/Pictures/"/>
+    <Copier srcPath="/system/backupres/Music/" dstPath="/storage/sdcard0/Music/"/>
+    <Copier srcPath="/system/backupres/Movies/" dstPath="/storage/sdcard0/Movies/"/>
+</Copiers>

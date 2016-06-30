@@ -1,0 +1,3 @@
+<resources>
+	<bool name="is_only_copypictures">true</bool>
+</resources>
