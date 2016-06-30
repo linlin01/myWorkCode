@@ -1,5 +1,9 @@
 git clone https://github.com/com314159/LauncherIconMaskEffect
 
+https://github.com/gabrielemariotti
+
+https://github.com/sunboy4103?tab=repositories
+
 https://github.com/zhoumushui/CarLauncher
 
 ¡­or create a new repository on the command line
