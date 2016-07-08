@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--add BUG_ID:JWLWEL-129 gaoxueyan 20150211(start)  -->
+    <bool name="isDefaultDhakatimezone">false</bool>
+    <!--add BUG_ID:JWLWEL-129 gaoxueyan 20150211 (end)  --> 
+</resources>
