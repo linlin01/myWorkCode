@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "576407032788",
+    "project_id": "lefty-intex"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576407032788:android:3281c0d20fd30021",
+        "android_client_info": {
+          "package_name": "com.android.launcher3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9pcvVadlBwlUQ6sxLZS7-NsOLaXhSc4M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
