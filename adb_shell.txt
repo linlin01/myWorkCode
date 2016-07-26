@@ -1,2 +1,11 @@
 修改关机时长为10秒
 adb shell setprop ro.rgk_anim_duration 10000
+============================================
+录制screen recorder
+1. 手机adb可以连接电脑
+2. 运行命令：adb shell screenrecord /sdcard/1.mp4
+3. 复现问题
+4. 出现问题后在控制台ctrl+c停止screenrecorder
+5. adb pull /sdcard/1.mp4 d:\
+也同时录制视频。
+===========================================
