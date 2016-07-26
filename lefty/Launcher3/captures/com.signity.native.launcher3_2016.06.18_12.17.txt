@@ -1,0 +1,303 @@
+TASK null id=4195
+  ACTIVITY com.signity.native.launcher3/lefty.LeftyActivity 3a4ccab8 pid=9796
+    Local Activity 6847940 State:
+      mResumed=false mStopped=true mFinished=false
+      mLoadersStarted=false
+      mChangingConfigurations=false
+      mCurrentConfig={0 0.93 404mcc2mnc en_GB ldltr sw360dp w360dp h615dp 480dpi nrml long port finger -keyb/v/h -nav/h s.287}
+      mMultiWindowStyle=MultiWindowStyle{type=0, zone=ZONE_UNKNOWN, option=0x00000000, bounds=null, isNull=false, isolatedCenterPoint=Point(0, 0), scale=0.0, specificTaskId=-1}
+    Active Fragments in 2f70c310:
+      #0: Lefty_MainActivity{3cd21e09 #0 id=0x7f110092}
+        mFragmentId=#7f110092 mContainerId=#7f110091 mTag=null
+        mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+        mAdded=true mRemoving=false mResumed=false mFromLayout=true mInLayout=true
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mRetaining=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{2f70c310 in LeftyActivity{6847940}}
+        mActivity=lefty.LeftyActivity@6847940
+        mSavedViewState={0=android.view.AbsSavedState$1@2e93b80e, 1=android.view.AbsSavedState$1@2e93b80e, 2=android.view.AbsSavedState$1@2e93b80e, 3=android.view.AbsSavedState$1@2e93b80e, 2131820579=FragmentPager.SavedState{3fcdd22f position=0}, 2131820580=android.view.AbsSavedState$1@2e93b80e, 2131820638=TextView.SavedState{2007003c start=0 end=0 text=}, 2131820639=android.view.AbsSavedState$1@2e93b80e, 2131820640=android.view.AbsSavedState$1@2e93b80e, 2131820641=lefty.com.viewpagerindicator.CirclePageIndicator$SavedState@2f7591c5, 2131820642=android.view.AbsSavedState$1@2e93b80e, 2131820643=android.view.AbsSavedState$1@2e93b80e, 2131820644=android.view.AbsSavedState$1@2e93b80e, 2131820645=android.view.AbsSavedState$1@2e93b80e, 2131820646=android.view.AbsSavedState$1@2e93b80e, 2131820647=android.view.AbsSavedState$1@2e93b80e, 2131820648=android.view.AbsSavedState$1@2e93b80e, 2131820649=android.view.AbsSavedState$1@2e93b80e, 2131820650=android.view.AbsSavedState$1@2e93b80e, 2131820651=android.view.AbsSavedState$1@2e93b80e, 2131820652=android.view.AbsSavedState$1@2e93b80e, 2131820653=android.view.AbsSavedState$1@2e93b80e, 2131820654=android.view.AbsSavedState$1@2e93b80e, 2131820655=android.view.AbsSavedState$1@2e93b80e, 2131820656=android.view.AbsSavedState$1@2e93b80e, 2131820657=android.view.AbsSavedState$1@2e93b80e, 2131820658=android.view.AbsSavedState$1@2e93b80e, 2131820659=android.view.AbsSavedState$1@2e93b80e, 2131820660=android.view.AbsSavedState$1@2e93b80e, 2131820661=android.view.AbsSavedState$1@2e93b80e, 2131820662=android.view.AbsSavedState$1@2e93b80e, 2131820663=android.view.AbsSavedState$1@2e93b80e, 2131820664=android.support.v7.widget.RecyclerView$SavedState@ad7471a, 2131820665=android.view.AbsSavedState$1@2e93b80e, 2131820666=android.view.AbsSavedState$1@2e93b80e, 2131820667=android.view.AbsSavedState$1@2e93b80e, 2131820668=HorizontalScrollView.SavedState{d6f624b scrollPosition=0 isLayoutRtl=false}, 2131820669=android.view.AbsSavedState$1@2e93b80e, 2131820670=android.view.AbsSavedState$1@2e93b80e, 2131820671=HorizontalScrollView.SavedState{3961e428 scrollPosition=0 isLayoutRtl=false}, 2131820672=android.view.AbsSavedState$1@2e93b80e, 2131820673=android.view.AbsSavedState$1@2e93b80e, 2131820674=FragmentPager.SavedState{21228541 position=0}, 2131820675=lefty.com.viewpagerindicator.CirclePageIndicator$SavedState@3192bae6, 2131820676=android.view.AbsSavedState$1@2e93b80e, 2131820679=android.view.AbsSavedState$1@2e93b80e, 2131820680=android.view.AbsSavedState$1@2e93b80e, 2131820684=android.view.AbsSavedState$1@2e93b80e, 2131820685=android.view.AbsSavedState$1@2e93b80e, 2131820686=android.view.AbsSavedState$1@2e93b80e, 2131820687=android.view.AbsSavedState$1@2e93b80e, 2131820688=android.view.AbsSavedState$1@2e93b80e, 2131820690=android.view.AbsSavedState$1@2e93b80e, 2131820704=android.view.AbsSavedState$1@2e93b80e, 2131820705=android.view.AbsSavedState$1@2e93b80e, 2131820711=android.view.AbsSavedState$1@2e93b80e, 2131820712=android.view.AbsSavedState$1@2e93b80e, 2131820713=android.view.AbsSavedState$1@2e93b80e, 2131820714=android.view.AbsSavedState$1@2e93b80e, 2131820715=android.view.AbsSavedState$1@2e93b80e, 2131820716=android.view.AbsSavedState$1@2e93b80e, 2131820717=android.view.AbsSavedState$1@2e93b80e, 2131820743=android.view.AbsSavedState$1@2e93b80e, 2131820744=android.view.AbsSavedState$1@2e93b80e, 2131820745=android.view.AbsSavedState$1@2e93b80e, 2131820760=android.view.AbsSavedState$1@2e93b80e, 2131820771=android.view.AbsSavedState$1@2e93b80e, 2131820772=android.view.AbsSavedState$1@2e93b80e, 2131820776=android.view.AbsSavedState$1@2e93b80e, 2131820777=android.view.AbsSavedState$1@2e93b80e, 2131820778=android.view.AbsSavedState$1@2e93b80e, 2131820779=android.view.AbsSavedState$1@2e93b80e, 2131820780=android.view.AbsSavedState$1@2e93b80e, 2131820781=android.view.AbsSavedState$1@2e93b80e, 2131820782=android.view.AbsSavedState$1@2e93b80e, 2131820783=android.view.AbsSavedState$1@2e93b80e, 2131820784=android.view.AbsSavedState$1@2e93b80e, 2131820785=android.view.AbsSavedState$1@2e93b80e, 2131820786=android.view.AbsSavedState$1@2e93b80e, 2131820787=android.view.AbsSavedState$1@2e93b80e}
+        mView=android.widget.RelativeLayout{44fd827 V.E..... ........ 0,0-1080,1920 #7f110092 app:id/fragment_id}
+        Child FragmentManager{3f051ad4 in Lefty_MainActivity{3cd21e09}}:
+          FragmentManager misc state:
+            mActivity=lefty.LeftyActivity@6847940
+            mContainer=android.app.Fragment$1@3751347d
+            mParent=Lefty_MainActivity{3cd21e09 #0 id=0x7f110092}
+            mCurState=3 mStateSaved=true mDestroyed=false
+    Added Fragments:
+      #0: Lefty_MainActivity{3cd21e09 #0 id=0x7f110092}
+    FragmentManager misc state:
+      mActivity=lefty.LeftyActivity@6847940
+      mContainer=android.app.Activity$1@213f9f72
+      mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=163285108 (91297 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{ed7cfc3 I.ED.... R....... 0,0-1080,1920}
+        android.widget.LinearLayout{35756600 V.E..... ........ 0,0-1080,1920}
+          android.view.ViewStub{7031040 G.E..... ......I. 0,0-0,0 #1020428}
+          android.widget.FrameLayout{39130f32 V.E..... ........ 0,0-1080,1920 #1020002 android:id/content}
+            com.android.launcher3.LauncherRootView{26499494 V.E..... ........ 0,0-1080,1920 #7f110052 app:id/launcher}
+              com.android.launcher3.DragLayer{327aaea6 V.E..... ........ 0,0-1080,1920 #7f110053 app:id/drag_layer}
+                com.android.launcher3.FocusIndicatorView{3cc19b79 V.ED.... ........ 0,75-156,231 #7f110054 app:id/focus_indicator}
+                com.android.launcher3.Workspace{146440be V.ED...L ........ -2310,-1890-3390,3810 #7f11000e app:id/workspace}
+                  com.android.launcher3.CellLayout{b5da51f V.ED..C. ........ 2310,1890-3390,3810}
+                    com.android.launcher3.ClickShadowView{3428f06c V.ED.... ........ 0,0-306,516}
+                    com.android.launcher3.ShortcutAndWidgetContainer{e377635 V.E..... ........ 0,0-1080,1920}
+                      android.widget.LinearLayout{159faaca V.E..... ........ 0,0-1080,1920 #0}
+                        android.widget.FrameLayout{3d41743b V.E..... ........ 0,0-1080,1920 #7f110091 app:id/main}
+                          android.widget.RelativeLayout{44fd827 V.E..... ........ 0,0-1080,1920 #7f110092 app:id/fragment_id}
+                            android.widget.ScrollView{26eaa758 VFED.V.. ........ 0,0-1080,1920}
+                              android.widget.LinearLayout{16f640b1 V.E..... ........ 0,0-1080,6142}
+                                android.widget.TextView{875a996 V.ED.... ........ 0,0-1080,72}
+                                android.widget.RelativeLayout{33c91917 V.E..... ........ 0,72-1080,243}
+                                  android.widget.RelativeLayout{110ee104 V.E..... ........ 45,24-1035,147}
+                                    android.widget.EditText{18fd36ed VFED..CL ........ 12,16-978,106 #7f11005e app:id/search_yahoo_edt}
+                                    android.widget.ImageView{32dac922 V.ED.... ........ 879,12-978,111 #7f11005f app:id/search_icon}
+                                android.widget.LinearLayout{2bc2fb3 V.E..... ........ 0,243-1080,399 #7f110060 app:id/video_header}
+                                  android.widget.LinearLayout{181b0970 V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{3d0354e9 V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{1380556e V.ED.... ........ 147,40-332,107 #7f110088 app:id/category_header}
+                                  android.view.View{28c0140f V.ED.... ........ 0,147-1080,156}
+                                android.widget.FrameLayout{327f4c9c V.E..... ........ 0,399-1080,999}
+                                  android.support.v4.view.ViewPager{263356a5 VFED.... ........ 0,0-1080,600 #7f110023 app:id/matches_viewpager}
+                                    android.widget.RelativeLayout{10e05a7a V.E..... ........ 3240,0-4320,600}
+                                      android.widget.ImageView{e2cf120 V.ED.... ........ 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{3f73e22b V.ED.... ........ 451,237-628,362 #7f1100a1 app:id/play_icon}
+                                    android.widget.RelativeLayout{2b829688 V.E..... ........ 2160,0-3240,600}
+                                      android.widget.ImageView{15ab2823 V.ED.... ........ 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{5a7b821 V.ED.... ........ 451,237-628,362 #7f1100a1 app:id/play_icon}
+                                    android.widget.RelativeLayout{d09a446 V.E..... ........ 1080,0-2160,600}
+                                      android.widget.ImageView{32219d52 V.ED.... ........ 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{114c7607 V.ED.... ........ 451,237-628,362 #7f1100a1 app:id/play_icon}
+                                    android.widget.RelativeLayout{39ee9334 V.E..... ........ 0,0-1080,600}
+                                      android.widget.ImageView{b66fddd V.ED.... ........ 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{29a6b55d V.ED.... ........ 451,237-628,362 #7f1100a1 app:id/play_icon}
+                                  lefty.com.viewpagerindicator.CirclePageIndicator{2a2bbed2 V.ED.... ........ 0,497-1080,600 #7f110061 app:id/ferries_detail_indicator}
+                                android.widget.LinearLayout{31306ba3 G.E..... ......I. 0,0-0,0 #7f110024 app:id/viewpageclickcontainer}
+                                android.view.View{157baea0 V.ED.... ........ 0,999-1080,999}
+                                android.widget.RelativeLayout{49e4a59 V.E..... ........ 0,999-1080,1449 #7f110062 app:id/weather_container}
+                                  android.widget.RelativeLayout{be2f61e V.E..... ........ 0,0-1080,450}
+                                    android.widget.ImageView{3cc407a2 V.ED.... ........ 0,0-1080,450 #7f1100a7 app:id/weather_bg}
+                                    android.widget.RelativeLayout{2fd41eff V.E..... ........ 0,0-1080,90 #7f1100a8 app:id/up_layout}
+                                      android.widget.TextView{36fd14cc V.ED.... ........ 30,18-356,71 #7f1100a9 app:id/weather_location_textview}
+                                      android.widget.TextView{27e03315 V.ED.... ........ 832,18-1050,71 #7f1100aa app:id/date_textview}
+                                    android.widget.RelativeLayout{2144562a V.E..... ........ 0,90-1080,450}
+                                      android.widget.LinearLayout{ad5ac1b V.E..... ........ 30,36-344,323}
+                                        android.widget.ImageView{55eabf0 V.ED.... ........ 67,30-247,210 #7f1100ab app:id/type_image_textview}
+                                        android.widget.TextView{2f4cb1b8 V.ED.... ........ 0,210-314,287 #7f1100ac app:id/type_textview}
+                                      android.widget.TextView{2e1deb91 V.ED.... ........ 855,120-1050,239 #7f1100ad app:id/degree_textview}
+                                android.widget.RelativeLayout{3a9aaf6 V.E..... ........ 0,1449-1080,1605}
+                                  android.widget.LinearLayout{3198eef7 V.E..... ........ 0,0-1080,156 #7f110063 app:id/setting_header}
+                                    android.widget.LinearLayout{f73164 V.E..... ........ 0,0-1080,147}
+                                      android.widget.ImageView{11a4afcd V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                      android.widget.TextView{363d8082 V.ED.... ........ 147,40-335,107 #7f110088 app:id/category_header}
+                                    android.view.View{3be38393 V.ED.... ........ 0,147-1080,156}
+                                  android.widget.ImageView{28a7ffd0 G.ED..C. ......I. 960,41-1035,115 #7f110064 app:id/small_setting_imageview}
+                                android.widget.LinearLayout{2a597bc9 V.E..... ........ 0,1605-1080,2205 #7f110065 app:id/settings_layout}
+                                  android.widget.ImageView{61c16a8 G.ED..C. ......I. 0,0-1080,600 #7f110066 app:id/settingImage}
+                                  android.widget.RelativeLayout{124722ce V.E..... ........ 0,0-1080,600 #7f110067 app:id/settinglanguageLayout}
+                                    android.widget.TextView{2e38c5ef V.ED.... ........ 0,0-1080,157 #7f110068 app:id/selectlanguagetxt}
+                                    android.view.View{5548fc V.ED.... ........ 0,157-1080,160 #7f110069 app:id/view}
+                                    android.widget.RelativeLayout{f750b85 V.E...C. ........ 60,220-1020,321 #7f11006a app:id/linear}
+                                      android.widget.TextView{2c369dda V.ED.... ........ 0,0-960,101 #7f11006b app:id/language_select}
+                                      android.widget.ImageView{27f5d20b V.ED.... ........ 906,35-936,65}
+                                    android.view.View{292bf8e8 V.ED.... ........ 0,381-1080,384 #7f11006c app:id/view2}
+                                    android.widget.RelativeLayout{18ffdb01 V.E..... ........ 0,384-1080,600}
+                                      android.widget.TextView{3d70bda6 V.ED..C. ........ 744,57-1035,158 #7f11006d app:id/next}
+                                    android.view.View{172d83e7 V.ED.... ........ 0,597-1080,600}
+                                  android.widget.RelativeLayout{283bbb94 G.E..... ......ID 0,0-1080,600 #7f11006e app:id/settingpublisherlayout}
+                                    android.widget.TextView{3d0e263d V.ED.... ......I. 0,0-1080,157 #7f11006f app:id/selectpublishertx}
+                                    android.view.View{1edb0e32 V.ED.... ......I. 0,157-1080,160 #7f110070 app:id/view1}
+                                    android.widget.RelativeLayout{e447783 V.E...C. ......ID 60,220-1020,321 #7f110071 app:id/linear1}
+                                      android.widget.TextView{21e2fd00 V.ED.... ......ID 0,0-960,101 #7f110072 app:id/select_publisher_txt}
+                                      android.widget.ImageView{4bbe939 V.ED.... ......I. 891,28-936,73}
+                                    android.view.View{2027db7e V.ED.... ......I. 0,381-1080,384 #7f110073 app:id/view3}
+                                    android.widget.RelativeLayout{174d08df V.E..... ......I. 0,384-1080,600}
+                                      android.widget.TextView{1ffae92c V.ED..C. ......I. 45,57-406,158 #7f110074 app:id/previouscc}
+                                      android.widget.TextView{14e8dff5 V.ED..C. ......I. 681,57-1035,158 #7f110075 app:id/proceed}
+                                    android.view.View{7e2318a V.ED.... ......I. 0,597-1080,600}
+                                android.widget.LinearLayout{212353fb G.E..... ......ID 0,1605-1080,2330 #7f110076 app:id/toi_layout}
+                                android.widget.LinearLayout{ec36c18 V.E..... ........ 0,2205-1080,2361 #7f110077 app:id/wallpapers_header}
+                                  android.widget.LinearLayout{6b48671 V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{839dc56 V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{224934d7 V.ED.... ........ 147,40-397,107 #7f110088 app:id/category_header}
+                                  android.view.View{1c8f31c4 V.ED.... ........ 0,147-1080,156}
+                                android.support.v7.widget.RecyclerView{bba18ad VFED.... ........ 0,2361-1080,2991 #7f110078 app:id/recyclerview}
+                                  android.widget.LinearLayout{348f67e2 V.E..... ........ -186,45-159,585 #7f1100a5 app:id/wallpaper_main_layout}
+                                    android.widget.ImageView{357175a9 V.ED.... ........ 22,0-322,540 #7f1100a6 app:id/wallpaper}
+                                  android.widget.LinearLayout{d824773 V.E..... ........ 159,45-504,585 #7f1100a5 app:id/wallpaper_main_layout}
+                                    android.widget.ImageView{6f75f3f V.ED.... ........ 22,0-322,540 #7f1100a6 app:id/wallpaper}
+                                  android.widget.LinearLayout{282fa630 V.E..... ........ 504,45-849,585 #7f1100a5 app:id/wallpaper_main_layout}
+                                    android.widget.ImageView{a718df4 V.ED.... ........ 22,0-322,540 #7f1100a6 app:id/wallpaper}
+                                  android.widget.LinearLayout{1a0c92a9 V.E..... ........ 849,45-1194,585 #7f1100a5 app:id/wallpaper_main_layout}
+                                    android.widget.ImageView{27c0d55 V.ED.... ........ 22,0-322,540 #7f1100a6 app:id/wallpaper}
+                                android.widget.LinearLayout{3c0202e V.E..... ........ 0,2991-1080,3147 #7f110079 app:id/twitter_header}
+                                  android.widget.LinearLayout{342fe7cf V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{2a20f55c V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{1bf2b065 V.ED.... ........ 147,40-306,107 #7f110088 app:id/category_header}
+                                  android.view.View{2b32113a V.ED.... ........ 0,147-1080,156}
+                                android.widget.LinearLayout{326d31eb V.E..... ........ 0,3147-1080,4156 #7f11007a app:id/twiterlayout}
+                                  com.twitter.sdk.android.tweetui.TweetView{4760b48 V.E...C. ........ 0,0-1080,490}
+                                    android.widget.RelativeLayout{1f62ede1 V.E..... ........ 0,0-1080,490 #7f1100e8 app:id/tw__tweet_view}
+                                      android.widget.FrameLayout{1ea00706 G.E..... ......I. 0,0-0,0 #7f1100e9 app:id/tw__tweet_media_container}
+                                        com.twitter.sdk.android.tweetui.internal.TweetMediaView{eb01c7 V.ED.... ......ID 0,0-0,0 #7f1100ea app:id/tw__tweet_media}
+                                        com.twitter.sdk.android.tweetui.internal.MediaBadgeView{258493f4 V.E..... ......I. 0,0-0,0 #7f1100eb app:id/tw__tweet_media_badge}
+                                          android.widget.ImageView{13f871d G.ED.... ......I. 0,0-0,0 #7f1100e3 app:id/tw__gif_badge}
+                                          android.widget.TextView{a58d92 G.ED.... ......I. 0,0-0,0 #7f1100e4 app:id/tw__video_duration}
+                                      android.widget.TextView{88bf363 G.ED.... ......I. 0,0-0,0 #7f1100ec app:id/tw__tweet_retweeted_by}
+                                      android.widget.ImageView{3aec1969 V.ED.... ........ 60,54-168,162 #7f1100ed app:id/tw__tweet_author_avatar}
+                                      android.widget.TextView{2950fb60 V.ED.... ........ 192,45-533,106 #7f1100ee app:id/tw__tweet_author_full_name}
+                                      android.widget.ImageView{10527819 V.ED.... ........ 533,49-590,97 #7f1100ef app:id/tw__tweet_author_verified}
+                                      android.widget.ImageView{100af0de V.ED.... ........ 972,54-1020,93 #7f1100d8 app:id/tw__twitter_logo}
+                                      android.widget.TextView{13c062bf V.ED.... ........ 192,95-512,159 #7f1100f0 app:id/tw__tweet_author_screen_name}
+                                      android.widget.TextView{25ba6d8c V.ED.... ........ 512,95-612,159 #7f1100f1 app:id/tw__tweet_timestamp}
+                                      android.widget.TextView{24097cd5 V.ED.... ........ 60,198-1020,377 #7f1100f2 app:id/tw__tweet_text}
+                                      com.twitter.sdk.android.tweetui.TweetActionBarView{1dd13cea V.E..... ........ 24,377-1080,495 #7f1100c7 app:id/tw__tweet_action_bar}
+                                        com.twitter.sdk.android.tweetui.ToggleImageButton{39a26bdb VFED..C. ........ 0,-11-129,118 #7f1100c8 app:id/tw__tweet_like_button}
+                                        android.widget.ImageButton{d66d678 VFED..C. ........ 249,-11-375,115 #7f1100c9 app:id/tw__tweet_share_button}
+                                      android.view.View{22f21151 G.ED.... ......I. 0,0-0,0 #7f1100f3 app:id/bottom_separator}
+                                  android.view.View{17fe3db6 V.ED.... ........ 0,490-1080,495}
+                                  com.twitter.sdk.android.tweetui.TweetView{1ed1eab7 V.E...C. ........ 0,495-1080,985}
+                                    android.widget.RelativeLayout{156ee224 V.E..... ........ 0,0-1080,490 #7f1100e8 app:id/tw__tweet_view}
+                                      android.widget.FrameLayout{34f5718d G.E..... ......I. 0,0-0,0 #7f1100e9 app:id/tw__tweet_media_container}
+                                        com.twitter.sdk.android.tweetui.internal.TweetMediaView{35287f42 V.ED.... ......ID 0,0-0,0 #7f1100ea app:id/tw__tweet_media}
+                                        com.twitter.sdk.android.tweetui.internal.MediaBadgeView{28107b53 V.E..... ......I. 0,0-0,0 #7f1100eb app:id/tw__tweet_media_badge}
+                                          android.widget.ImageView{9c9fc90 G.ED.... ......I. 0,0-0,0 #7f1100e3 app:id/tw__gif_badge}
+                                          android.widget.TextView{1d549989 G.ED.... ......I. 0,0-0,0 #7f1100e4 app:id/tw__video_duration}
+                                      android.widget.TextView{cc34d8e G.ED.... ......I. 0,0-0,0 #7f1100ec app:id/tw__tweet_retweeted_by}
+                                      android.widget.ImageView{1723e325 V.ED.... ........ 60,54-168,162 #7f1100ed app:id/tw__tweet_author_avatar}
+                                      android.widget.TextView{3a9d79af V.ED.... ........ 192,45-437,106 #7f1100ee app:id/tw__tweet_author_full_name}
+                                      android.widget.ImageView{3c7a51bc V.ED.... ........ 437,49-494,97 #7f1100ef app:id/tw__tweet_author_verified}
+                                      android.widget.ImageView{38644545 V.ED.... ........ 972,54-1020,93 #7f1100d8 app:id/tw__twitter_logo}
+                                      android.widget.TextView{282ab49a V.ED.... ........ 192,95-413,159 #7f1100f0 app:id/tw__tweet_author_screen_name}
+                                      android.widget.TextView{265201cb V.ED.... ........ 413,95-513,159 #7f1100f1 app:id/tw__tweet_timestamp}
+                                      android.widget.TextView{3b78cda8 V.ED.... ........ 60,198-1020,377 #7f1100f2 app:id/tw__tweet_text}
+                                      com.twitter.sdk.android.tweetui.TweetActionBarView{1908f0c1 V.E..... ........ 24,377-1080,495 #7f1100c7 app:id/tw__tweet_action_bar}
+                                        com.twitter.sdk.android.tweetui.ToggleImageButton{186f8066 VFED..C. ........ 0,-11-129,118 #7f1100c8 app:id/tw__tweet_like_button}
+                                        android.widget.ImageButton{157cefa7 VFED..C. ........ 249,-11-375,115 #7f1100c9 app:id/tw__tweet_share_button}
+                                      android.view.View{39611c54 G.ED.... ......I. 0,0-0,0 #7f1100f3 app:id/bottom_separator}
+                                android.widget.LinearLayout{1f2d7fd V.E..... ........ 0,4156-1080,4312 #7f11007b app:id/treading_apps_header}
+                                  android.widget.LinearLayout{1ce33cf2 V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{1e7edf43 V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{14dda9c0 V.ED.... ........ 147,40-474,107 #7f110088 app:id/category_header}
+                                  android.view.View{3699f6f9 V.ED.... ........ 0,147-1080,156}
+                                android.widget.HorizontalScrollView{2664363e VFED.... ........ 0,4312-1080,4666 #7f11007c app:id/treading_app_hori_scroll}
+                                  android.widget.LinearLayout{13262c9f V.E..... ........ 30,45-1050,309 #7f11007d app:id/treading_apps_layout}
+                                    android.widget.LinearLayout{2ad3a1ec V.E..... ........ 0,0-255,264}
+                                      android.widget.ImageView{1788df3d V.ED..C. ........ 22,0-232,210 #0}
+                                      android.widget.TextView{1ffa09b5 V.ED.... ........ 0,215-255,264}
+                                    android.widget.LinearLayout{369784a V.E..... ........ 255,0-510,264}
+                                      android.widget.ImageView{1f79d332 V.ED..C. ........ 22,0-232,210 #1}
+                                      android.widget.TextView{29caf3bb V.ED.... ........ 0,215-255,264}
+                                    android.widget.LinearLayout{1f4ef0d8 V.E..... ........ 510,0-765,264}
+                                      android.widget.ImageView{fe45883 V.ED..C. ........ 22,0-232,210 #2}
+                                      android.widget.TextView{10e8c31 V.ED.... ........ 0,215-255,264}
+                                    android.widget.LinearLayout{cecf16 V.E..... ........ 765,0-1020,264}
+                                      android.widget.ImageView{f83ca00 V.ED..C. ........ 22,0-232,210 #3}
+                                      android.widget.TextView{1c2b1097 V.ED.... ........ 0,215-255,264}
+                                android.widget.LinearLayout{92e4284 V.E..... ........ 0,4666-1080,4822 #7f11007e app:id/treading_games_header}
+                                  android.widget.LinearLayout{370eba6d V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{b60c6a2 V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{18061f33 V.ED.... ........ 147,40-516,107 #7f110088 app:id/category_header}
+                                  android.view.View{2c8f02f0 V.ED.... ........ 0,147-1080,156}
+                                android.widget.HorizontalScrollView{1699069 VFED.... ........ 0,4822-1080,5191 #7f11007f app:id/treading_games_hori_scroll}
+                                  android.widget.LinearLayout{1e28aaee V.E..... ........ 30,45-1050,324 #7f110080 app:id/treading_games_layout}
+                                    android.widget.LinearLayout{1d797b8f V.E..... ........ 0,0-255,279}
+                                      android.widget.ImageView{3ea93239 V.ED..C. ........ 15,0-240,225 #0}
+                                      android.widget.TextView{2ff95e1c V.ED.... ........ 0,230-255,279}
+                                    android.widget.LinearLayout{d81ca25 V.E..... ........ 255,0-510,279}
+                                      android.widget.ImageView{c6df07e V.ED..C. ........ 15,0-240,225 #1}
+                                      android.widget.TextView{97887fa V.ED.... ........ 0,230-255,279}
+                                    android.widget.LinearLayout{271c41ab V.E..... ........ 510,0-765,279}
+                                      android.widget.ImageView{989f9df V.ED..C. ........ 15,0-240,225 #2}
+                                      android.widget.TextView{384c4008 V.ED.... ........ 0,230-255,279}
+                                    android.widget.LinearLayout{229e3a1 V.E..... ........ 765,0-1020,279}
+                                      android.widget.ImageView{3b5b862c V.ED..C. ........ 15,0-240,225 #3}
+                                      android.widget.TextView{1eb729c6 V.ED.... ........ 0,230-255,279}
+                                android.widget.LinearLayout{37db4d87 V.E..... ........ 0,5191-1080,5347 #7f110081 app:id/entertainment_header}
+                                  android.widget.LinearLayout{176954b4 V.E..... ........ 0,0-1080,147}
+                                    android.widget.ImageView{6e018dd V.ED.... ........ 45,30-132,117 #7f110087 app:id/category_icon}
+                                    android.widget.TextView{cec1c52 V.ED.... ........ 147,40-466,107 #7f110088 app:id/category_header}
+                                  android.view.View{2a953b23 V.ED.... ........ 0,147-1080,156}
+                                android.widget.FrameLayout{39a10820 V.E..... ........ 0,5347-1080,5947}
+                                  android.support.v4.view.ViewPager{2ca65d9 VFED.... ........ 0,0-1080,600 #7f110082 app:id/entertainment_viewpager}
+                                    android.widget.RelativeLayout{3a0bab9e V.E..... ......I. 1080,0-2160,600}
+                                      android.widget.ImageView{294784aa V.ED.... ......I. 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{1f76667f G.ED.... ......I. 0,0-0,0 #7f1100a1 app:id/play_icon}
+                                    android.widget.RelativeLayout{3dde864c V.E..... ........ 0,0-1080,600}
+                                      android.widget.ImageView{17510b95 V.ED.... ........ 0,0-1080,600 #7f1100a0 app:id/pagerImageView}
+                                      android.widget.ImageView{f728695 G.ED.... ......I. 0,0-0,0 #7f1100a1 app:id/play_icon}
+                                  lefty.com.viewpagerindicator.CirclePageIndicator{2502e3aa V.ED.... ........ 0,497-1080,600 #7f110083 app:id/entertainment_indicator}
+                                android.widget.LinearLayout{2314eb9b V.E..... ........ 0,5947-1080,6007 #7f110084 app:id/entertainment_indicator_container}
+                                android.view.View{2493bb38 V.ED.... ........ 0,6007-1080,6022}
+                                android.view.View{1b41f711 V.ED.... ........ 0,6022-1080,6142}
+                            android.widget.RelativeLayout{1c839076 G.E..... ......ID 0,0-0,0 #7f11008c app:id/progress_layout}
+                              android.widget.LinearLayout{2b4ca677 V.E..... ......I. 0,0-0,0}
+                                android.widget.ImageView{16552e4 V.ED.... ......I. 0,0-0,0 #7f11008d app:id/img}
+                                android.widget.TextView{37bdf34d G.ED.... ......I. 0,0-0,0 #7f11008e app:id/loader_textview}
+                                lefty.DottedProgressBar{16903e02 V.ED.... ......I. 0,0-0,0 #7f11008f app:id/progress}
+                            android.widget.ImageView{1f63ab33 G.ED.... ......I. 0,0-1080,1920 #7f110090 app:id/splash_imageview}
+                  com.android.launcher3.CellLayout{5db3313 V.ED..CL ........ 3402,2169-4458,3498}
+                    com.android.launcher3.ClickShadowView{1b96b950 V.ED.... ........ 0,0-300,368}
+                    com.android.launcher3.ShortcutAndWidgetContainer{f837749 V.E..... ........ 0,0-1056,1329}
+                      com.android.launcher3.BubbleTextView{34c8384e VFED..CL ........ 792,996-1056,1328 #4}
+                com.android.launcher3.Hotseat{14bbed6f V.E..... ........ 0,1668-1080,1920 #7f110056 app:id/hotseat}
+                  com.android.launcher3.CellLayout{29361a7c V.ED...L ........ 0,0-1080,252 #7f110051 app:id/layout}
+                    com.android.launcher3.ClickShadowView{33f05 V.ED.... ........ 38,0-275,288}
+                    com.android.launcher3.ShortcutAndWidgetContainer{1738b5a V.E..... ........ 38,0-1118,252}
+                      android.widget.TextView{3443f18b VFED..CL ........ 402,0-603,252}
+                      com.android.launcher3.BubbleTextView{11086268 VFED..CL ........ 0,0-201,252 #1}
+                      com.android.launcher3.BubbleTextView{12fdc681 VFED..CL ........ 603,0-804,252 #2}
+                      com.android.launcher3.BubbleTextView{314f0326 VFED..CL ........ 804,0-1005,252 #3}
+                android.widget.LinearLayout{26fe1b67 G.E..... ......I. 0,0-0,0 #7f110057 app:id/overview_panel}
+                  android.widget.TextView{1f353d14 V.ED..C. ......ID 0,0-0,0 #7f1100b6 app:id/wallpaper_button}
+                  android.widget.TextView{13bf49bd V.ED..C. ......ID 0,0-0,0 #7f1100b7 app:id/widget_button}
+                  android.widget.TextView{36182bb2 V.ED..C. ......ID 0,0-0,0 #7f1100b8 app:id/settings_button}
+                com.android.launcher3.PageIndicator{f26f001 V.E..... ........ 504,1632-576,1668 #7f110055 app:id/page_indicator}
+                  com.android.launcher3.PageIndicatorMarker{4cae22c V.E..... ........ 0,0-36,36}
+                    android.widget.ImageView{23470703 V.ED.... ........ 0,0-36,36 #7f1100b9 app:id/inactive}
+                    android.widget.ImageView{18b31680 V.ED.... ........ 0,0-36,36 #7f1100ba app:id/active}
+                  com.android.launcher3.PageIndicatorMarker{2c5eec7e V.E..... ........ 36,0-72,36}
+                    android.widget.ImageView{3c1bc4b9 V.ED.... ........ 0,0-36,36 #7f1100b9 app:id/inactive}
+                    android.widget.ImageView{2dd950fe V.ED.... ........ 0,0-36,36 #7f1100ba app:id/active}
+                com.android.launcher3.SearchDropTargetBar{1ea9105f V.E..... ........ 0,75-1080,279 #7f110058 app:id/search_drop_target_bar}
+                  android.widget.LinearLayout{19731aac V.E..... ........ 0,0-1080,204 #7f1100c3 app:id/drag_target_bar}
+                    android.widget.FrameLayout{352af375 V.E..... ........ 0,0-360,204}
+                      com.android.launcher3.DeleteDropTarget{3af57f0a V.ED.... ........ 0,0-360,204 #7f1100c4 app:id/delete_target_text}
+                    android.widget.FrameLayout{32f8537b V.E..... ........ 360,0-720,204}
+                      com.android.launcher3.InfoDropTarget{294d3598 V.ED.... ........ 0,0-360,204 #7f1100c5 app:id/info_target_text}
+                    android.widget.FrameLayout{27c451f1 V.E..... ........ 720,0-1080,204}
+                      com.android.launcher3.UninstallDropTarget{10f481d6 V.ED.... ........ 0,0-360,204 #7f1100c6 app:id/uninstall_target_text}
+                com.android.launcher3.widget.WidgetsContainerView{392eac57 I.E..... ......ID 0,0-1080,1920 #7f110059 app:id/widgets_view}
+                  android.widget.FrameLayout{33ac1344 V.E..... ......ID 0,0-1080,1920 #7f110027 app:id/content}
+                    android.widget.FrameLayout{18bb1c2d I.E..... ......I. 0,99-1080,1896 #7f110111 app:id/widgets_reveal_view}
+                    com.android.launcher3.widget.WidgetsRecyclerView{20ee562 GFED.... ......I. 0,0-0,0 #7f110112 app:id/widgets_list_view}
+                com.android.launcher3.allapps.AllAppsContainerView{3607b6f3 I.E..... ......ID 0,0-1080,1920 #7f110025 app:id/apps_view}
+                  android.widget.FrameLayout{df91fb0 VFE..... ......ID 12,75-1068,267 #7f110026 app:id/search_box_container}
+                    android.widget.FrameLayout{cda4e29 V.E...C. ......ID 0,0-1056,192}
+                      android.widget.LinearLayout{1979f5ae I.E..... ......ID 12,24-1044,168 #7f11002d app:id/search_container}
+                        android.widget.ImageView{345ccf4f V.ED..C. ......ID 48,36-120,108 #7f11002e app:id/dismiss_search_button}
+                        com.android.launcher3.ExtendedEditText{38c886dc VFED..CL ......ID 120,0-1032,144 #7f11002f app:id/search_box_input}
+                      android.widget.ImageView{30a0a3e5 V.ED.... ......ID 924,24-996,168 #7f110030 app:id/search_button}
+                  android.widget.FrameLayout{e73beba V.E..... ......ID 0,267-1080,1920 #7f110027 app:id/content}
+                    android.widget.FrameLayout{2941116b I.E..... ......I. 0,0-1080,1629 #7f110028 app:id/all_apps_reveal}
+                    com.android.launcher3.allapps.AllAppsRecyclerViewContainerView{7c534c8 GFE..... ......ID 0,0-0,0 #7f110029 app:id/all_apps_container}
+                      com.android.launcher3.ClickShadowView{3fbc9961 V.ED.... ......I. 0,0-0,0}
+                      com.android.launcher3.allapps.AllAppsRecyclerView{1c0f0c86 VFED.... ......I. 0,0-0,0 #7f11002a app:id/apps_list_view}
+              android.view.ViewStub{3ddd5947 G.E..... ......I. 0,0-0,0 #7f11005a}
+    Looper (main, tid 1) {1a7f5a7b}
+      Message 0: { when=+4m53s843ms what=2 target=org.chromium.base.SystemMessageHandler }
+      (Total messages: 1, idling=false, quitting=false)
+ 
+Debug logs: 
