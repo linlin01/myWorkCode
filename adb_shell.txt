@@ -1,0 +1,2 @@
+修改关机时长为10秒
+adb shell setprop ro.rgk_anim_duration 10000
