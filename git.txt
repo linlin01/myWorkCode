@@ -6,6 +6,8 @@ https://github.com/sunboy4103?tab=repositories
 
 https://github.com/zhoumushui/CarLauncher
 
+https://github.com/CyanogenMod
+
 ¡­or create a new repository on the command line
 
 git init
