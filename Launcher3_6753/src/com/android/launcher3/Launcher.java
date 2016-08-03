@@ -468,8 +468,8 @@ public class Launcher extends Activity
     // adb shell stop
     // adb shell start
     static {
-        DISABLE_APPLIST_WHITE_BG =
-            android.os.SystemProperties.getBoolean(PROP_DISABLE_APPLIST_WHITE_BG, true);
+        DISABLE_APPLIST_WHITE_BG = true;
+//            android.os.SystemProperties.getBoolean(PROP_DISABLE_APPLIST_WHITE_BG, true);
     }
     /// @}
 
@@ -530,7 +530,8 @@ public class Launcher extends Activity
             mUnreadLoader = new MTKUnreadLoader(getApplicationContext());
             // Register unread change broadcast.
             IntentFilter filter = new IntentFilter();
-            filter.addAction(Intent.ACTION_UNREAD_CHANGED);
+//            filter.addAction(Intent.ACTION_UNREAD_CHANGED);
+            filter.addAction("com.mediatek.action.UNREAD_CHANGED");
             registerReceiver(mUnreadLoader, filter);
             // initialize unread loader
             mUnreadLoader.initialize(this);
@@ -2800,7 +2801,7 @@ public class Launcher extends Activity
             }
         }
         /// M: add systrace to analyze application launche time.
-        Trace.traceEnd(Trace.TRACE_TAG_INPUT);
+//        Trace.traceEnd(Trace.TRACE_TAG_INPUT);
     }
 
     @SuppressLint("ClickableViewAccessibility")
@@ -3251,8 +3252,8 @@ public class Launcher extends Activity
         } catch (SecurityException e) {
             /// M: Runtime permission check @ {
             if (Intent.ACTION_CALL.equals(intent.getAction())) {
-                Toast.makeText(this, com.mediatek.internal.R.string.denied_required_permission,
-                        Toast.LENGTH_SHORT).show();
+//                Toast.makeText(this, com.mediatek.internal.R.string.denied_required_permission,
+//                        Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
             }
@@ -3630,14 +3631,14 @@ public class Launcher extends Activity
     }
 
     void showWorkspace(int snapToPage, boolean animated, Runnable onCompleteRunnable) {
-        Trace.traceBegin(Trace.TRACE_TAG_INPUT, "showWorkspace");
+//        Trace.traceBegin(Trace.TRACE_TAG_INPUT, "showWorkspace");
         if (LauncherLog.DEBUG) {
             LauncherLog.d(TAG, "showWorkspace: animated = " + animated + ", mState = " + mState);
         }
 
         ///M: ALPS02461704, fix widget quick add JE.
         if (mWorkspace == null) {
-            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
+//            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
             return ;
         }
 

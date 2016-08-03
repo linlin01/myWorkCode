@@ -1140,22 +1140,22 @@ public class Workspace extends PagedView
         }
         switch (ev.getAction() & MotionEvent.ACTION_MASK) {
         case MotionEvent.ACTION_DOWN:
-            Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.ACTION_DOWN");
+//            Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.ACTION_DOWN");
             mXDown = ev.getX();
             mYDown = ev.getY();
             mTouchDownTime = System.currentTimeMillis();
-            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
+//            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
             break;
         case MotionEvent.ACTION_POINTER_UP:
         case MotionEvent.ACTION_UP:
-            Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.ACTION_UP");
+//            Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.ACTION_UP");
             if (mTouchState == TOUCH_STATE_REST) {
                 final CellLayout currentPage = (CellLayout) getChildAt(mCurrentPage);
                 if (currentPage != null) {
                     onWallpaperTap(ev);
                 }
             }
-            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
+//            Trace.traceEnd(Trace.TRACE_TAG_INPUT);
         }
         return super.onInterceptTouchEvent(ev);
     }
@@ -2178,11 +2178,11 @@ public class Workspace extends PagedView
 
     @Override
     public void onLauncherTransitionEnd(Launcher l, boolean animated, boolean toWorkspace) {
-        Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.onLauncherTransitionEnd");
+//        Trace.traceBegin(Trace.TRACE_TAG_INPUT, "Workspace.onLauncherTransitionEnd");
         mIsSwitchingState = false;
         updateChildrenLayersEnabled(false);
         showCustomContentIfNecessary();
-        Trace.traceEnd(Trace.TRACE_TAG_INPUT);
+//        Trace.traceEnd(Trace.TRACE_TAG_INPUT);
     }
 
     void updateCustomContentVisibility() {

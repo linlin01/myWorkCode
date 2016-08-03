@@ -55,8 +55,8 @@ import android.widget.Toast;
 import android.widget.Gallery.LayoutParams;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.app.ActivityThread;
-import android.content.pm.IPackageManager;
+//import android.app.ActivityThread;
+//import android.content.pm.IPackageManager;
 
 public class WallpaperPreviewActivity extends Activity {
 
@@ -106,10 +106,10 @@ public class WallpaperPreviewActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				if (isStorageLow()) {
-					Toast.makeText(WallpaperPreviewActivity.this,
-							R.string.storage_low, Toast.LENGTH_LONG).show();
-				} else {
+//				if (isStorageLow()) {
+//					Toast.makeText(WallpaperPreviewActivity.this,
+//							R.string.storage_low, Toast.LENGTH_LONG).show();
+//				} else {
 //					try {
 //						ResourceWallpaperInfo info = (ResourceWallpaperInfo) wallpapers
 //								.get(wallpaperPreview.getSelectedItemPosition());
@@ -129,8 +129,8 @@ public class WallpaperPreviewActivity extends Activity {
 //					} catch (IOException e) {
 //						// TODO Auto-generated catch block
 //					}
-					setDialog.show();
-				}
+//					setDialog.show();
+//				}
 			}
 		});
 		previewBar = (LinearLayout) findViewById(R.id.previewbar);

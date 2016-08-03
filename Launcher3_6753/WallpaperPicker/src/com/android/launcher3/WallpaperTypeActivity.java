@@ -126,15 +126,15 @@ public class WallpaperTypeActivity extends Activity implements
     }
 
     private void getKeyguardWallpaper() {
-        WallpaperManager wm = WallpaperManager.getInstance(this);
-        Drawable lockscreen = wm.peekDrawableForKeyguard();
-        if (lockscreen == null) {
-            Resources sysRes = Resources.getSystem();
-            int res_id = sysRes.getIdentifier("keyguard_wallpaper", "drawable",
-                    "android");
-            lockscreen = getResources().getDrawable(res_id);
-        }
-        mIconLockScreen.setBackgroundDrawable(lockscreen);
+//        WallpaperManager wm = WallpaperManager.getInstance(this);
+//        Drawable lockscreen = wm.peekDrawableForKeyguard();
+//        if (lockscreen == null) {
+//            Resources sysRes = Resources.getSystem();
+//            int res_id = sysRes.getIdentifier("keyguard_wallpaper", "drawable",
+//                    "android");
+//            lockscreen = getResources().getDrawable(res_id);
+//        }
+//        mIconLockScreen.setBackgroundDrawable(lockscreen);
     }
 
     private void getHomeWallpaper() {
@@ -299,16 +299,17 @@ public class WallpaperTypeActivity extends Activity implements
     }
 
     public Pair<ApplicationInfo, Integer> getKeyguardWallpaperArrayResourceId() {
-        final String packageName = getResources().getResourcePackageName(
-                R.array.keyguard_wallpapers);
-        try {
-            ApplicationInfo info = getPackageManager().getApplicationInfo(
-                    packageName, 0);
-            return new Pair<ApplicationInfo, Integer>(info,
-                    R.array.keyguard_wallpapers);
-        } catch (PackageManager.NameNotFoundException e) {
-            return null;
-        }
+//        final String packageName = getResources().getResourcePackageName(
+//                R.array.keyguard_wallpapers);
+//        try {
+//            ApplicationInfo info = getPackageManager().getApplicationInfo(
+//                    packageName, 0);
+//            return new Pair<ApplicationInfo, Integer>(info,
+//                    R.array.keyguard_wallpapers);
+//        } catch (PackageManager.NameNotFoundException e) {
+//            return null;
+//        }
+        return null;
     }
 
     private ArrayList<ResourceWallpaperInfo> addWallpapers(Resources res,
@@ -456,12 +457,14 @@ public class WallpaperTypeActivity extends Activity implements
         private static long getMemThreshold(ContentResolver mResolver) {
             long value = Settings.Global.getInt(
                                   mResolver,
-                                  Settings.Global.SYS_STORAGE_THRESHOLD_PERCENTAGE,
+//                                  Settings.Global.SYS_STORAGE_THRESHOLD_PERCENTAGE,
+                                   "sys_storage_threshold_percentage",
                                   DEFAULT_THRESHOLD_PERCENTAGE);
             value = (value*getRomMemory())/100;
             long maxValue = Settings.Global.getInt(
                     mResolver,
-                    Settings.Global.SYS_STORAGE_THRESHOLD_MAX_BYTES,
+//                    Settings.Global.SYS_STORAGE_THRESHOLD_MAX_BYTES,
+                    "sys_storage_threshold_max_bytes",
                     DEFAULT_THRESHOLD_MAX_BYTES);
             return value < maxValue ? value : maxValue;
         }

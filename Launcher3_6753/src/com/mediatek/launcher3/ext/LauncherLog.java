@@ -86,7 +86,8 @@ public final class LauncherLog {
     // adb shell stop
     // adb shell start
     static {
-        if (android.os.SystemProperties.getBoolean(PROP_DEBUG_ALL, false)) {
+//        if (android.os.SystemProperties.getBoolean(PROP_DEBUG_ALL, false)) {
+        if (false) {
             Log.d(MODULE_NAME, "enable all debug on-off");
             DEBUG = true;
             DEBUG_DRAW = true;
@@ -103,22 +104,22 @@ public final class LauncherLog {
             DEBUG_AUTOTESTCASE = true;
         } else {
             // separately set
-            DEBUG = android.os.SystemProperties.getBoolean(PROP_DEBUG, Build.TYPE.equals("eng"));
-            DEBUG_DRAW = android.os.SystemProperties.getBoolean(PROP_DEBUG_DRAW, false);
-            DEBUG_DRAG = android.os.SystemProperties.getBoolean(PROP_DEBUG_DRAG, false);
-            DEBUG_EDIT = android.os.SystemProperties.getBoolean(PROP_DEBUG_EDIT, true);
-            DEBUG_KEY = android.os.SystemProperties.getBoolean(PROP_DEBUG_KEY, true);
-            DEBUG_LAYOUT = android.os.SystemProperties.getBoolean(PROP_DEBUG_LAYOUT, false);
-            DEBUG_LOADER = android.os.SystemProperties.getBoolean(PROP_DEBUG_LOADER, true);
-            DEBUG_MOTION = android.os.SystemProperties.getBoolean(PROP_DEBUG_MOTION, false);
-            DEBUG_PERFORMANCE = android.os.SystemProperties
-                    .getBoolean(PROP_DEBUG_PERFORMANCE, true);
-            DEBUG_SURFACEWIDGET = android.os.SystemProperties.getBoolean(PROP_DEBUG_SURFACEWIDGET,
-                    true);
-            DEBUG_UNREAD = android.os.SystemProperties.getBoolean(PROP_DEBUG_UNREAD, false);
-            DEBUG_LOADERS = android.os.SystemProperties.getBoolean(PROP_DEBUG_LOADERS, true);
-            DEBUG_AUTOTESTCASE = android.os.SystemProperties.getBoolean(PROP_DEBUG_AUTOTESTCASE,
-                    true);
+//            DEBUG = android.os.SystemProperties.getBoolean(PROP_DEBUG, Build.TYPE.equals("eng"));
+//            DEBUG_DRAW = android.os.SystemProperties.getBoolean(PROP_DEBUG_DRAW, false);
+//            DEBUG_DRAG = android.os.SystemProperties.getBoolean(PROP_DEBUG_DRAG, false);
+//            DEBUG_EDIT = android.os.SystemProperties.getBoolean(PROP_DEBUG_EDIT, true);
+//            DEBUG_KEY = android.os.SystemProperties.getBoolean(PROP_DEBUG_KEY, true);
+//            DEBUG_LAYOUT = android.os.SystemProperties.getBoolean(PROP_DEBUG_LAYOUT, false);
+//            DEBUG_LOADER = android.os.SystemProperties.getBoolean(PROP_DEBUG_LOADER, true);
+//            DEBUG_MOTION = android.os.SystemProperties.getBoolean(PROP_DEBUG_MOTION, false);
+//            DEBUG_PERFORMANCE = android.os.SystemProperties
+//                    .getBoolean(PROP_DEBUG_PERFORMANCE, true);
+//            DEBUG_SURFACEWIDGET = android.os.SystemProperties.getBoolean(PROP_DEBUG_SURFACEWIDGET,
+//                    true);
+//            DEBUG_UNREAD = android.os.SystemProperties.getBoolean(PROP_DEBUG_UNREAD, false);
+//            DEBUG_LOADERS = android.os.SystemProperties.getBoolean(PROP_DEBUG_LOADERS, true);
+//            DEBUG_AUTOTESTCASE = android.os.SystemProperties.getBoolean(PROP_DEBUG_AUTOTESTCASE,
+//                    true);
         }
     }
     /******************** end ********************/

@@ -231,16 +231,17 @@ public class WallpaperItemPickerActivity extends Activity {
 		// com.android.launcher3; Resources needs the real package name,
 		// com.android.launcher3. So we ask Resources for what it thinks the
 		// package name should be.
-		final String packageName = getResources().getResourcePackageName(
-				R.array.keyguard_wallpapers);
-		try {
-			ApplicationInfo info = getPackageManager().getApplicationInfo(
-					packageName, 0);
-			return new Pair<ApplicationInfo, Integer>(info,
-					R.array.keyguard_wallpapers);
-		} catch (PackageManager.NameNotFoundException e) {
-			return null;
-		}
+//		final String packageName = getResources().getResourcePackageName(
+//				R.array.keyguard_wallpapers);
+//		try {
+//			ApplicationInfo info = getPackageManager().getApplicationInfo(
+//					packageName, 0);
+//			return new Pair<ApplicationInfo, Integer>(info,
+//					R.array.keyguard_wallpapers);
+//		} catch (PackageManager.NameNotFoundException e) {
+//			return null;
+//		}
+		return null;
 	}
 
 	private ArrayList<ResourceWallpaperInfo> addWallpapers(Resources res,

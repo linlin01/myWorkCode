@@ -114,9 +114,9 @@ public class LauncherAppState {
         filter.addAction(LauncherAppsCompat.ACTION_MANAGED_PROFILE_ADDED);
         filter.addAction(LauncherAppsCompat.ACTION_MANAGED_PROFILE_REMOVED);
 		//add by luoran for changewallpaper(start)
-		if("1".equals(android.os.SystemProperties.get("ro.rgk_changewallpaper_support"))){
+//		if("1".equals(android.os.SystemProperties.get("ro.rgk_changewallpaper_support"))){
             filter.addAction(WALLPAPER_ACTION);
-		}
+//		}
 		//add by luoran for changewallpaper(start)
         if (LauncherLog.DEBUG) {
             LauncherLog.d(TAG, "LauncherAppState: mIconCache = " + mIconCache + ", mModel = "
