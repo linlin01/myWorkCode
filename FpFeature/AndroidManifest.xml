@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rgk.fpfeature"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system"
+    coreApp="true"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    
+    <application
+        android:name=".FPApplication"
+        android:persistent="true"
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/application_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FpMain"
+            android:screenOrientation="portrait"
+            android:label="@string/application_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FpDirectionActivity"
+            android:label="@string/direction_settings"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".FPDirectionService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.rgk.directoin.DIRECTION_KEY_DOWN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <provider android:name=".FingerprintProvider"
+            android:authorities="com.rgk.fingerprint"
+            android:exported="false">
+        </provider>
+        <provider android:name=".FingerprintProviderPublic"
+            android:authorities="com.rgk.fingerprintpublic"
+            android:exported="true">
+        </provider>
+        
+        <activity
+            android:name=".FPAppLockActivity"
+            android:label="@string/feature_app_lock"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FPRecognizeActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/fingerprint_recognize_title" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <service android:name=".FPAppLockService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.rgk.fp.APP_LOCK_BOOT_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <service android:name=".FpAppLockDaemon"
+            android:process="com.rgk.fpfeature.service"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <activity
+            android:name=".FPMultiClickActivity"
+            android:label="@string/feature_multi_click"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".FPMultiClickService"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.rgk.fp.CLICK_COUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        
+        <activity
+            android:name=".FPLockChooseActivity"
+            android:label="@string/title_fingerprint"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".FPFreezeActivity"
+            android:label="@string/feature_freeze_app"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <service android:name=".ATestServcie">
+        </service>
+    </application>
+
+</manifest>

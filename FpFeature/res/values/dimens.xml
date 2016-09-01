@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="fingerprint_quickstart_name_width">90dp</dimen>
+    <dimen name="actionbar_contentInsetStart">16dp</dimen>
+    <!-- ActionBar height -->
+    <dimen name="actionbar_size">56dip</dimen>
+    
+    <dimen name="switch_button_width">85dip</dimen>
+    <dimen name="switch_button_margin">12dip</dimen>
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

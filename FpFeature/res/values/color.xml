@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#767676</color>
+    <color name="main_color">#009587</color>
+    
+    <color name="warning">#ff5621</color>
+    
+    <color name="lock_pattern_view_regular_color">#ff37474f</color>
+    <color name="lock_pattern_view_regular_color_dark">#ffffff</color>
+    <color name="lock_pattern_view_error_color">@color/warning</color>
+    
+    <color name="back_btn_pressed">#563238</color>
+</resources>

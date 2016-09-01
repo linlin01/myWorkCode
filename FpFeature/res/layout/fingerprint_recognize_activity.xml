@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/recognize_bg"
+        />
+    
+    <RelativeLayout
+         android:layout_width="60dp"
+         android:layout_height="60dp"
+         android:background="@drawable/recognize_app_bg"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="190dp"
+         >
+        <ImageView
+	        android:id="@+id/icon"
+	        android:layout_width="48dp"
+	        android:layout_height="48dp"
+	        android:layout_centerInParent="true"
+	        />
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/scan"
+        />
+        
+    <TextView 
+        android:id="@+id/text_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        />
+
+         
+</RelativeLayout>

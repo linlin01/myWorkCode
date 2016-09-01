@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="application_name">Fingerprint</string>
+    <string name="app_name">Fingerprint settings</string>
+    <string name="direction_settings">Direct settings</string>
+    <string name="direction_move_left">Move left</string>
+    <string name="direction_move_up">Move up</string>
+    <string name="direction_move_right">Move right</string>
+    <string name="direction_move_down">Move down</string>
+    <string name="move_left_title">Move left settings</string>
+    <string name="move_up_title">Move up settings</string>
+    <string name="move_right_title">Move right settings</string>
+    <string name="move_down_title">Move down settings</string>
+
+    <string name="delete">Delete</string>
+    
+    <string name="answer_call">Answer call</string>
+    <string name="capture">Capture</string>
+    <string name="off_alarm_clock">Dismiss alarm</string>
+    
+    <string name="feature_multi_click">Multi-click start app</string>
+    <string name="feature_freeze_app">Freeze app</string>
+    <string name="feature_app_lock">App lock</string>
+    <string name="feature_encryption">Encryption</string>
+    <string name="feature_direction_app">Direction start app</string>
+    <string name="feature_fp_manager">Fingerprint manager</string>
+    
+    <string name="fingerprint_recognize_title">Recognize</string>
+    
+    <string name="title_unlock_app">%1s unlock apps</string>
+    <string name="title_lock_app">%1s lock apps</string>
+    
+    <string name="double_click">Double click</string>
+    <string name="triple_click">Triple click</string>
+    <string name="fourfold_click">Fourfold click</string>
+    <string name="not_set">Not set</string>
+    <string name="set_double_title">Double click settings</string>
+    <string name="set_triple_title">Triple click settings</string>
+    <string name="set_fourfold_title">Fourfold click settings</string>
+    
+    <string name="title_fingerprint">Fingerprint</string>
+    <!-- Header on pattern confirm screen [CHAR LIMIT=30] -->
+    <string name="lockpassword_confirm_your_pattern_header">Confirm your pattern</string>
+    <!-- Message to be used to explain the user that he needs to enter his pattern to continue a
+         particular operation. [CHAR LIMIT=70]-->
+    <string name="lockpassword_confirm_your_pattern_generic">Use your device pattern to continue.</string>
+    <!-- Security & location settings screen, change unlock pattern screen instruction if user
+         draws incorrect pattern [CHAR LIMIT=30] -->
+    <string name="lockpattern_need_to_unlock_wrong">Wrong pattern</string>
+    <!-- Content description for the fingerprint icon when the user is prompted to enter his credentials. Not shown on the screen. [CHAR LIMIT=NONE] -->
+    <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
+    <!-- Security & location settings screen, confirm unlock pattern screen hint at the bottom after
+         too many incorrect attempts [CHAR LIMIT=120]-->
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Too many incorrect attempts. Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+    
+    <!-- Header on password confirm screen [CHAR LIMIT=30] -->
+    <string name="lockpassword_confirm_your_password_header">Confirm your password</string>
+    <!-- Header on password confirm screen [CHAR LIMIT=30] -->
+    <string name="lockpassword_confirm_your_pin_header">Confirm your PIN</string>
+    
+    <!-- Message to be used to explain the user that he needs to enter his password to continue a
+         particular operation. [CHAR LIMIT=70]-->
+    <string name="lockpassword_confirm_your_password_generic">Enter your device password to continue.</string>
+    <!-- Message to be used to explain the user that he needs to enter his PIN to continue a
+         particular operation. [CHAR LIMIT=70]-->
+    <string name="lockpassword_confirm_your_pin_generic">Enter your device PIN to continue.</string>
+    <!-- Security & location settings screen, change security method screen instruction if user
+         enters incorrect PIN [CHAR LIMIT=30] -->
+    <string name="lockpassword_invalid_pin">Wrong PIN</string>
+    <!-- Security & location settings screen, change security method screen instruction if user
+         enters incorrect password [CHAR LIMIT=30] -->
+    <string name="lockpassword_invalid_password">Wrong password</string>
+    
+    <string name="lockpassword_confirm_your_fp_header">Confirm your fingerprint</string>
+    <string name="lockpassword_confirm_your_fp_generic">Touch the fingerprint sensor to continue.</string>
+    
+    <string name="lockpassword_switch">Switch</string>
+    
+    <string name="fingerprint_touch_dialog_title">Whoops, that\u2019s not the sensor</string>
+    <string name="fingerprint_touch_dialog_message">Use the fingerprint sensor on your device.</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    <string name="add_app">add</string>
+    <string name="toast_app_freeze_success">%1$s is freezed successful</string>
+    <string name="toast_app_unfreeze_success">%1$s is unfreezed successful</string>
+    
+    <string name="app_freeze_dialog_message">Are you sure freeze the %1$s app?</string>
+    <string name="app_unfreeze_dialog_message">Are you sure unfreeze the %1$s app?</string>
+    <string name="frozen_app_title">Frozen apps</string>
+    <string name="normal_app_title">Pick app</string>
+</resources>

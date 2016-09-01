@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/test_id"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:background="@color/main_color"
+         >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_top"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="22dp"
+        android:paddingBottom="5dp"
+        >
+        <include android:id="@+id/call"
+            layout="@layout/fp_main_swtich_btn_item"
+            android:layout_width="@dimen/switch_button_width"
+            android:layout_height="wrap_content"
+            />
+        <View 
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/fingerprint_line"
+            android:layout_marginStart="@dimen/switch_button_margin"
+            android:layout_marginEnd="@dimen/switch_button_margin"
+            />
+        <include android:id="@+id/camera"
+            layout="@layout/fp_main_swtich_btn_item"
+            android:layout_width="@dimen/switch_button_width"
+            android:layout_height="wrap_content"
+            />
+        <View 
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@drawable/fingerprint_line"
+            android:layout_marginStart="@dimen/switch_button_margin"
+            android:layout_marginEnd="@dimen/switch_button_margin"
+            />
+        <include android:id="@+id/clock"
+            layout="@layout/fp_main_swtich_btn_item"
+            android:layout_width="@dimen/switch_button_width"
+            android:layout_height="wrap_content"
+            />"
+    </LinearLayout>
+    <View 
+	    android:layout_width="match_parent"
+	    android:layout_height="1px"
+	    android:background="@drawable/fingerprint_line"
+	    />
+    <GridView 
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="2"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        />
+
+</LinearLayout>
